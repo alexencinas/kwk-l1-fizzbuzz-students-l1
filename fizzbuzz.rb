@@ -1,5 +1,5 @@
 def fizzbuzz
-  number = gets.chomp
+  number = gets.chomp.to_i
   if number % 3
     puts "Fizz"
   elsif number % 5
