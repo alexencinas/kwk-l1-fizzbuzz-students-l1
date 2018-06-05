@@ -1,13 +1,7 @@
 def fizzbuzz
   number = gets.chomp.to_i
-  if number % 3
+  if number/3 !==0
     puts "Fizz"
-  elsif number % 5
-    puts "Buzz"
-  elsif number % 3 && number %5
-   puts "Fizzbuzz"
-  else
-    puts "nil"
 end
 fizzbuzz
    
