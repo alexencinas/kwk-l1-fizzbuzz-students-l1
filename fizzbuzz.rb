@@ -7,6 +7,7 @@ def fizzbuzz
     elsif number %5==0
     puts "buzz"
   else 
+    puts "nil"
   end 
 end
 fizzbuzz
